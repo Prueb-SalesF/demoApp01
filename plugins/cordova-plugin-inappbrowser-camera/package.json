@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git",
+        "spec": "git+https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:jverlee/cordova-plugin-inappbrowser-camera.git",
+          "sshUrl": "git+ssh://git@github.com/jverlee/cordova-plugin-inappbrowser-camera.git",
+          "httpsUrl": "git+https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git",
+          "gitUrl": "git://github.com/jverlee/cordova-plugin-inappbrowser-camera.git",
+          "shortcut": "github:jverlee/cordova-plugin-inappbrowser-camera",
+          "directUrl": "https://raw.githubusercontent.com/jverlee/cordova-plugin-inappbrowser-camera/master/package.json"
+        }
+      },
+      "C:\\Users\\DoIT\\Lallemand\\pruebasApp\\pruebasPhoneGap\\23mayo\\LallemandApp\\LallemandPedidos"
+    ]
+  ],
+  "_from": "git+https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git#17b3c9eb15c66702de31ea06793af1110371348e",
+  "_id": "cordova-plugin-inappbrowser@1.3.0",
+  "_inCache": true,
+  "_location": "/cordova-plugin-inappbrowser",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git",
+    "spec": "git+https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:jverlee/cordova-plugin-inappbrowser-camera.git",
+      "sshUrl": "git+ssh://git@github.com/jverlee/cordova-plugin-inappbrowser-camera.git",
+      "httpsUrl": "git+https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git",
+      "gitUrl": "git://github.com/jverlee/cordova-plugin-inappbrowser-camera.git",
+      "shortcut": "github:jverlee/cordova-plugin-inappbrowser-camera",
+      "directUrl": "https://raw.githubusercontent.com/jverlee/cordova-plugin-inappbrowser-camera/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "git+https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git#17b3c9eb15c66702de31ea06793af1110371348e",
+  "_shasum": "7bae25b1b42319b76dce01b3bafb5f79c7f73d34",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git",
+  "_where": "C:\\Users\\DoIT\\Lallemand\\pruebasApp\\pruebasPhoneGap\\23mayo\\LallemandApp\\LallemandPedidos",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-plugin-inappbrowser/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-inappbrowser",
+    "platforms": [
+      "android",
+      "amazon-fireos",
+      "ubuntu",
+      "ios",
+      "wp7",
+      "wp8",
+      "windows8",
+      "windows",
+      "firefoxos"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova InAppBrowser Plugin",
+  "devDependencies": {},
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.1.0"
+    }
+  ],
+  "gitHead": "17b3c9eb15c66702de31ea06793af1110371348e",
+  "homepage": "https://github.com/apache/cordova-plugin-inappbrowser#readme",
+  "keywords": [
+    "cordova",
+    "in",
+    "app",
+    "browser",
+    "inappbrowser",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-amazon-fireos",
+    "cordova-ubuntu",
+    "cordova-ios",
+    "cordova-wp7",
+    "cordova-wp8",
+    "cordova-windows8",
+    "cordova-windows",
+    "cordova-firefoxos"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-inappbrowser",
+  "optionalDependencies": {},
+  "readme": "<!--\r\n# license: Licensed to the Apache Software Foundation (ASF) under one\r\n#         or more contributor license agreements.  See the NOTICE file\r\n#         distributed with this work for additional information\r\n#         regarding copyright ownership.  The ASF licenses this file\r\n#         to you under the Apache License, Version 2.0 (the\r\n#         \"License\"); you may not use this file except in compliance\r\n#         with the License.  You may obtain a copy of the License at\r\n#\r\n#           http://www.apache.org/licenses/LICENSE-2.0\r\n#\r\n#         Unless required by applicable law or agreed to in writing,\r\n#         software distributed under the License is distributed on an\r\n#         \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\r\n#         KIND, either express or implied.  See the License for the\r\n#         specific language governing permissions and limitations\r\n#         under the License.\r\n-->\r\n\r\n# cordova-plugin-inappbrowser-camera\r\n\r\n## How to Use\r\n\r\nTo use the plugin, within config.xml, replace the original call that includes the inappbrowser with this:\r\n\r\n    <plugin spec=\"https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git\" version=\"1.1.0\" source=\"git\" />\r\n\r\n## What it Fixes\r\n\r\nThis plugin is an update to cordova-plugin-inappbrowser version 1.3.0 that allows the camera and photo library to be accessed\r\nfrom within the inappbrowser on both iOS and Android.\r\n\r\nPreviously there was an issue that would prevent the camera from appearing on top of the inappbrowser.\r\n\r\nFor iOS, this fix relies on code in from <a href=\"https://github.com/apache/cordova-plugin-inappbrowser/pull/139\">this pull request</a>\r\nsubmitted by <a href=\"https://github.com/birge\">birge</a>.\r\n\r\nFor Android, this fix relies on code from <a href=\"https://github.com/apache/cordova-plugin-inappbrowser/pull/205\">this pull request</a>\r\nsubmitted by <a href=\"https://github.com/darron1217\">darron1217</a>.\r\n\r\nEverything else should work the same.  The original read me is below.\r\n\r\n<hr />\r\n\r\nThis plugin provides a web browser view that displays when calling `cordova.InAppBrowser.open()`.\r\n\r\n    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');\r\n\r\nThe `cordova.InAppBrowser.open()` function is defined to be a drop-in replacement\r\nfor the `window.open()` function.  Existing `window.open()` calls can use the\r\nInAppBrowser window, by replacing window.open:\r\n\r\n    window.open = cordova.InAppBrowser.open;\r\n\r\nThe InAppBrowser window behaves like a standard web browser,\r\nand can't access Cordova APIs. For this reason, the InAppBrowser is recommended\r\nif you need to load third-party (untrusted) content, instead of loading that\r\ninto the main Cordova webview. The InAppBrowser is not subject to the\r\nwhitelist, nor is opening links in the system browser.\r\n\r\nThe InAppBrowser provides by default its own GUI controls for the user (back,\r\nforward, done).\r\n\r\nFor backwards compatibility, this plugin also hooks `window.open`.\r\nHowever, the plugin-installed hook of `window.open` can have unintended side\r\neffects (especially if this plugin is included only as a dependency of another\r\nplugin).  The hook of `window.open` will be removed in a future major release.\r\nUntil the hook is removed from the plugin, apps can manually restore the default\r\nbehaviour:\r\n\r\n    delete window.open // Reverts the call back to it's prototype's default\r\n\r\nAlthough `window.open` is in the global scope, InAppBrowser is not available until after the `deviceready` event.\r\n\r\n    document.addEventListener(\"deviceready\", onDeviceReady, false);\r\n    function onDeviceReady() {\r\n        console.log(\"window.open works well\");\r\n    }\r\n\r\n:warning: Report issues on the [Apache Cordova issue tracker](https://issues.apache.org/jira/issues/?jql=project%20%3D%20CB%20AND%20status%20in%20%28Open%2C%20%22In%20Progress%22%2C%20Reopened%29%20AND%20resolution%20%3D%20Unresolved%20AND%20component%20%3D%20%22Plugin%20InAppBrowser%22%20ORDER%20BY%20priority%20DESC%2C%20summary%20ASC%2C%20updatedDate%20DESC)\r\n\r\n\r\n\r\n## Installation\r\n\r\n    cordova plugin add cordova-plugin-inappbrowser\r\n\r\nIf you want all page loads in your app to go through the InAppBrowser, you can\r\nsimply hook `window.open` during initialization.  For example:\r\n\r\n    document.addEventListener(\"deviceready\", onDeviceReady, false);\r\n    function onDeviceReady() {\r\n        window.open = cordova.InAppBrowser.open;\r\n    }\r\n\r\n## cordova.InAppBrowser.open\r\n\r\nOpens a URL in a new `InAppBrowser` instance, the current browser\r\ninstance, or the system browser.\r\n\r\n    var ref = cordova.InAppBrowser.open(url, target, options);\r\n\r\n- __ref__: Reference to the `InAppBrowser` window. _(InAppBrowser)_\r\n\r\n- __url__: The URL to load _(String)_. Call `encodeURI()` on this if the URL contains Unicode characters.\r\n\r\n- __target__: The target in which to load the URL, an optional parameter that defaults to `_self`. _(String)_\r\n\r\n    - `_self`: Opens in the Cordova WebView if the URL is in the white list, otherwise it opens in the `InAppBrowser`.\r\n    - `_blank`: Opens in the `InAppBrowser`.\r\n    - `_system`: Opens in the system's web browser.\r\n\r\n- __options__: Options for the `InAppBrowser`. Optional, defaulting to: `location=yes`. _(String)_\r\n\r\n    The `options` string must not contain any blank space, and each feature's name/value pairs must be separated by a comma. Feature names are case insensitive. All platforms support the value below:\r\n\r\n    - __location__: Set to `yes` or `no` to turn the `InAppBrowser`'s location bar on or off.\r\n\r\n    Android only:\r\n\r\n    - __hidden__: set to `yes` to create the browser and load the page, but not show it. The loadstop event fires when loading is complete. Omit or set to `no` (default) to have the browser open and load normally.\r\n    - __clearcache__: set to `yes` to have the browser's cookie cache cleared before the new window is opened\r\n    - __clearsessioncache__: set to `yes` to have the session cookie cache cleared before the new window is opened\r\n    - __zoom__: set to `yes` to show Android browser's zoom controls, set to `no` to hide them.  Default value is `yes`.\r\n    - __hardwareback__: set to `yes` to use the hardware back button to navigate backwards through the `InAppBrowser`'s history. If there is no previous page, the `InAppBrowser` will close.  The default value is `yes`, so you must set it to `no` if you want the back button to simply close the InAppBrowser.\r\n    - __mediaPlaybackRequiresUserAction__: Set to `yes` to prevent HTML5 audio or video from autoplaying (defaults to `no`).\r\n\r\n    iOS only:\r\n\r\n    - __closebuttoncaption__: set to a string to use as the __Done__ button's caption. Note that you need to localize this value yourself.\r\n    - __disallowoverscroll__: Set to `yes` or `no` (default is `no`). Turns on/off the UIWebViewBounce property.\r\n    - __hidden__: set to `yes` to create the browser and load the page, but not show it. The loadstop event fires when loading is complete. Omit or set to `no` (default) to have the browser open and load normally.\r\n    - __clearcache__: set to `yes` to have the browser's cookie cache cleared before the new window is opened\r\n    - __clearsessioncache__: set to `yes` to have the session cookie cache cleared before the new window is opened\r\n    - __toolbar__:  set to `yes` or `no` to turn the toolbar on or off for the InAppBrowser (defaults to `yes`)\r\n    - __enableViewportScale__:  Set to `yes` or `no` to prevent viewport scaling through a meta tag (defaults to `no`).\r\n    - __mediaPlaybackRequiresUserAction__: Set to `yes` to prevent HTML5 audio or video from autoplaying (defaults to `no`).\r\n    - __allowInlineMediaPlayback__: Set to `yes` or `no` to allow in-line HTML5 media playback, displaying within the browser window rather than a device-specific playback interface. The HTML's `video` element must also include the `webkit-playsinline` attribute (defaults to `no`)\r\n    - __keyboardDisplayRequiresUserAction__: Set to `yes` or `no` to open the keyboard when form elements receive focus via JavaScript's `focus()` call (defaults to `yes`).\r\n    - __suppressesIncrementalRendering__: Set to `yes` or `no` to wait until all new view content is received before being rendered (defaults to `no`).\r\n    - __presentationstyle__:  Set to `pagesheet`, `formsheet` or `fullscreen` to set the [presentation style](http://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/Reference/Reference.html#//apple_ref/occ/instp/UIViewController/modalPresentationStyle) (defaults to `fullscreen`).\r\n    - __transitionstyle__: Set to `fliphorizontal`, `crossdissolve` or `coververtical` to set the [transition style](http://developer.apple.com/library/ios/#documentation/UIKit/Reference/UIViewController_Class/Reference/Reference.html#//apple_ref/occ/instp/UIViewController/modalTransitionStyle) (defaults to `coververtical`).\r\n    - __toolbarposition__: Set to `top` or `bottom` (default is `bottom`). Causes the toolbar to be at the top or bottom of the window.\r\n\r\n    Windows only:\r\n\r\n    - __hidden__: set to `yes` to create the browser and load the page, but not show it. The loadstop event fires when loading is complete. Omit or set to `no` (default) to have the browser open and load normally.\r\n    - __fullscreen__: set to `yes` to create the browser control without a border around it. Please note that if __location=no__ is also specified, there will be no control presented to user to close IAB window.\r\n\r\n### Supported Platforms\r\n\r\n- Amazon Fire OS\r\n- Android\r\n- BlackBerry 10\r\n- Firefox OS\r\n- iOS\r\n- Windows 8 and 8.1\r\n- Windows Phone 7 and 8\r\n- Browser\r\n\r\n### Example\r\n\r\n    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');\r\n    var ref2 = cordova.InAppBrowser.open(encodeURI('http://ja.m.wikipedia.org/wiki/ハングル'), '_blank', 'location=yes');\r\n\r\n### Firefox OS Quirks\r\n\r\nAs plugin doesn't enforce any design there is a need to add some CSS rules if\r\nopened with `target='_blank'`. The rules might look like these\r\n\r\n``` css\r\n.inAppBrowserWrap {\r\n  background-color: rgba(0,0,0,0.75);\r\n  color: rgba(235,235,235,1.0);\r\n}\r\n.inAppBrowserWrap menu {\r\n  overflow: auto;\r\n  list-style-type: none;\r\n  padding-left: 0;\r\n}\r\n.inAppBrowserWrap menu li {\r\n  font-size: 25px;\r\n  height: 25px;\r\n  float: left;\r\n  margin: 0 10px;\r\n  padding: 3px 10px;\r\n  text-decoration: none;\r\n  color: #ccc;\r\n  display: block;\r\n  background: rgba(30,30,30,0.50);\r\n}\r\n.inAppBrowserWrap menu li.disabled {\r\n\tcolor: #777;\r\n}\r\n```\r\n\r\n### Windows Quirks\r\n\r\nWindows 8.0, 8.1 and Windows Phone 8.1 don't support remote urls to be opened in the Cordova WebView so remote urls are always showed in the system's web browser if opened with `target='_self'`.\r\n\r\nOn Windows 10 if the URL is NOT in the white list and is opened with `target='_self'` it will be showed in the system's web browser instead of InAppBrowser popup.\r\n\r\nSimilar to Firefox OS IAB window visual behaviour can be overridden via `inAppBrowserWrap`/`inAppBrowserWrapFullscreen` CSS classes\r\n\r\n### Browser Quirks\r\n\r\n- Plugin is implemented via iframe,\r\n\r\n- Navigation history (`back` and `forward` buttons in LocationBar) is not implemented.\r\n\r\n## InAppBrowser\r\n\r\nThe object returned from a call to `cordova.InAppBrowser.open`.\r\n\r\n### Methods\r\n\r\n- addEventListener\r\n- removeEventListener\r\n- close\r\n- show\r\n- executeScript\r\n- insertCSS\r\n\r\n## addEventListener\r\n\r\n> Adds a listener for an event from the `InAppBrowser`.\r\n\r\n    ref.addEventListener(eventname, callback);\r\n\r\n- __ref__: reference to the `InAppBrowser` window _(InAppBrowser)_\r\n\r\n- __eventname__: the event to listen for _(String)_\r\n\r\n  - __loadstart__: event fires when the `InAppBrowser` starts to load a URL.\r\n  - __loadstop__: event fires when the `InAppBrowser` finishes loading a URL.\r\n  - __loaderror__: event fires when the `InAppBrowser` encounters an error when loading a URL.\r\n  - __exit__: event fires when the `InAppBrowser` window is closed.\r\n\r\n- __callback__: the function that executes when the event fires. The function is passed an `InAppBrowserEvent` object as a parameter.\r\n\r\n### InAppBrowserEvent Properties\r\n\r\n- __type__: the eventname, either `loadstart`, `loadstop`, `loaderror`, or `exit`. _(String)_\r\n\r\n- __url__: the URL that was loaded. _(String)_\r\n\r\n- __code__: the error code, only in the case of `loaderror`. _(Number)_\r\n\r\n- __message__: the error message, only in the case of `loaderror`. _(String)_\r\n\r\n\r\n### Supported Platforms\r\n\r\n- Amazon Fire OS\r\n- Android\r\n- iOS\r\n- Windows 8 and 8.1\r\n- Windows Phone 7 and 8\r\n- Browser\r\n\r\n### Browser Quirks\r\n\r\n`loadstart` and `loaderror` events are not being fired.\r\n\r\n### Quick Example\r\n\r\n    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');\r\n    ref.addEventListener('loadstart', function(event) { alert(event.url); });\r\n\r\n## removeEventListener\r\n\r\n> Removes a listener for an event from the `InAppBrowser`.\r\n\r\n    ref.removeEventListener(eventname, callback);\r\n\r\n- __ref__: reference to the `InAppBrowser` window. _(InAppBrowser)_\r\n\r\n- __eventname__: the event to stop listening for. _(String)_\r\n\r\n  - __loadstart__: event fires when the `InAppBrowser` starts to load a URL.\r\n  - __loadstop__: event fires when the `InAppBrowser` finishes loading a URL.\r\n  - __loaderror__: event fires when the `InAppBrowser` encounters an error loading a URL.\r\n  - __exit__: event fires when the `InAppBrowser` window is closed.\r\n\r\n- __callback__: the function to execute when the event fires.\r\nThe function is passed an `InAppBrowserEvent` object.\r\n\r\n### Supported Platforms\r\n\r\n- Amazon Fire OS\r\n- Android\r\n- iOS\r\n- Windows 8 and 8.1\r\n- Windows Phone 7 and 8\r\n- Browser\r\n\r\n### Quick Example\r\n\r\n    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');\r\n    var myCallback = function(event) { alert(event.url); }\r\n    ref.addEventListener('loadstart', myCallback);\r\n    ref.removeEventListener('loadstart', myCallback);\r\n\r\n## close\r\n\r\n> Closes the `InAppBrowser` window.\r\n\r\n    ref.close();\r\n\r\n- __ref__: reference to the `InAppBrowser` window _(InAppBrowser)_\r\n\r\n### Supported Platforms\r\n\r\n- Amazon Fire OS\r\n- Android\r\n- Firefox OS\r\n- iOS\r\n- Windows 8 and 8.1\r\n- Windows Phone 7 and 8\r\n- Browser\r\n\r\n### Quick Example\r\n\r\n    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');\r\n    ref.close();\r\n\r\n## show\r\n\r\n> Displays an InAppBrowser window that was opened hidden. Calling this has no effect if the InAppBrowser was already visible.\r\n\r\n    ref.show();\r\n\r\n- __ref__: reference to the InAppBrowser window (`InAppBrowser`)\r\n\r\n### Supported Platforms\r\n\r\n- Amazon Fire OS\r\n- Android\r\n- iOS\r\n- Windows 8 and 8.1\r\n- Browser\r\n\r\n### Quick Example\r\n\r\n    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'hidden=yes');\r\n    // some time later...\r\n    ref.show();\r\n\r\n## executeScript\r\n\r\n> Injects JavaScript code into the `InAppBrowser` window\r\n\r\n    ref.executeScript(details, callback);\r\n\r\n- __ref__: reference to the `InAppBrowser` window. _(InAppBrowser)_\r\n\r\n- __injectDetails__: details of the script to run, specifying either a `file` or `code` key. _(Object)_\r\n  - __file__: URL of the script to inject.\r\n  - __code__: Text of the script to inject.\r\n\r\n- __callback__: the function that executes after the JavaScript code is injected.\r\n    - If the injected script is of type `code`, the callback executes\r\n      with a single parameter, which is the return value of the\r\n      script, wrapped in an `Array`. For multi-line scripts, this is\r\n      the return value of the last statement, or the last expression\r\n      evaluated.\r\n\r\n### Supported Platforms\r\n\r\n- Amazon Fire OS\r\n- Android\r\n- iOS\r\n- Windows 8 and 8.1\r\n- Browser\r\n\r\n### Quick Example\r\n\r\n    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');\r\n    ref.addEventListener('loadstop', function() {\r\n        ref.executeScript({file: \"myscript.js\"});\r\n    });\r\n\r\n### Browser Quirks\r\n\r\n- only __code__ key is supported.\r\n\r\n### Windows Quirks\r\n\r\nDue to [MSDN docs](https://msdn.microsoft.com/en-us/library/windows.ui.xaml.controls.webview.invokescriptasync.aspx) the invoked script can return only string values, otherwise the parameter, passed to __callback__ will be `[null]`.\r\n\r\n## insertCSS\r\n\r\n> Injects CSS into the `InAppBrowser` window.\r\n\r\n    ref.insertCSS(details, callback);\r\n\r\n- __ref__: reference to the `InAppBrowser` window _(InAppBrowser)_\r\n\r\n- __injectDetails__: details of the script to run, specifying either a `file` or `code` key. _(Object)_\r\n  - __file__: URL of the stylesheet to inject.\r\n  - __code__: Text of the stylesheet to inject.\r\n\r\n- __callback__: the function that executes after the CSS is injected.\r\n\r\n### Supported Platforms\r\n\r\n- Amazon Fire OS\r\n- Android\r\n- iOS\r\n- Windows\r\n\r\n### Quick Example\r\n\r\n    var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');\r\n    ref.addEventListener('loadstop', function() {\r\n        ref.insertCSS({file: \"mystyles.css\"});\r\n    });\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-inappbrowser.git"
+  },
+  "version": "1.3.0"
+}
